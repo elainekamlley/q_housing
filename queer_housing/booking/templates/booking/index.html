@@ -1,0 +1,10 @@
+{% if user_list %}
+
+<h1>These are the current users</h1>
+	<ul>
+	{% for u in user_list %}
+		<li><a href= "/booking/{{ u.id }}/">{{ u.first_name }}</a></li>
+	{% endfor %}
+{% else %}
+	<p>No users are available.</p>
+{% endif %}
