@@ -1,4 +1,4 @@
-#!/home/elainekamlley/gitrepos/queer_connect/venv/bin/python
+#!/home/elainekamlley/gitrepos/q_housing/venv/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==0.9.8','console_scripts','easy_install'
 __requires__ = 'setuptools==0.9.8'
 import sys

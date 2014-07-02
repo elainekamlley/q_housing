@@ -1,10 +1,18 @@
-{% if user_list %}
+<html>
+	<head>
+		<title> Meet the users</title>
 
-<h1>These are the current users</h1>
-	<ul>
-	{% for u in user_list %}
-		<li><a href= "/booking/{{ u.id }}/">{{ u.first_name }}</a></li>
-	{% endfor %}
-{% else %}
-	<p>No users are available.</p>
-{% endif %}
+	</head>
+	<body>
+		{% if user_list %}
+
+		<h1>These are the current users</h1>
+
+			{% for u in user_list %}
+				<div><a href= "/booking/{{ u.id }}/">{{ u.first_name }} {{ u.last_name }}</a></div>
+			{% endfor %}
+		{% else %}
+			<p>No users are available.</p>
+		{% endif %}
+	</body>
+</html>

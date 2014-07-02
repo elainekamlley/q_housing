@@ -1,4 +1,4 @@
-#!/home/elainekamlley/gitrepos/queer_connect/venv/bin/python
+#!/home/elainekamlley/gitrepos/q_housing/venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":

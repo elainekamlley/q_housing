@@ -1,4 +1,4 @@
-#!/home/elainekamlley/gitrepos/queer_connect/venv/bin/python
+#!/home/elainekamlley/gitrepos/q_housing/venv/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==1.4.1','console_scripts','pip'
 __requires__ = 'pip==1.4.1'
 import sys

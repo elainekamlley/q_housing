@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/elainekamlley/gitrepos/queer_connect/venv"
+VIRTUAL_ENV="/home/elainekamlley/gitrepos/q_housing/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
