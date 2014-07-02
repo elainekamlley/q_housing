@@ -7,3 +7,5 @@ urlpatterns = patterns('',
 	url(r'^(?P<User_id>\d+)/$', views.UserView, name='user'),
 #	url(r'^(?P<pk>\d+)/houses$', views.HousesView.as_view(), name='houses'),
 )
+	#The patterns above user 'regex' or regular expressions. Its a mini language that lets you explain
+	#string

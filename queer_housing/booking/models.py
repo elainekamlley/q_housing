@@ -21,6 +21,8 @@ class User(models.Model):
 	password = models.CharField(max_length=100)
 	role = models.CharField(max_length=100)
 
+	def __unicode__(self):
+		return self.first_name
 
 class Identities(models.Model):
 	age = models.IntegerField(default=0)
@@ -29,7 +31,7 @@ class Identities(models.Model):
 	sexual_orientation = models.CharField(max_length = 100)
 	user_id = models.ManyToManyField(User)
 
-class Houses(models.Model):
+class Houses(models.Model):#best practice is to create singular name
 	description = models.CharField(max_length = 300)
 	user_id = models.ForeignKey(User)
 	status = models.CharField(max_length = 100)
@@ -41,6 +43,9 @@ class Houses(models.Model):
 	booker_id = models.IntegerField(default=0)
 	created_at = models.DateTimeField('date created')
 	updated_at = models.DateTimeField('date updated')
+
+	def __unicode__(self):
+		return self.user_id
 
 class Booking(models.Model):
 	check_in = models.DateTimeField('check in')
