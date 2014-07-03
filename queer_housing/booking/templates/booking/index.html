@@ -9,7 +9,7 @@
 		<h1>These are the current users</h1>
 
 			{% for u in user_list %}
-				<div><a href= "{/booking/{{ u.id }}}/">{{ u.first_name }} {{ u.last_name }}</a></div>
+				<div><a href= "/booking/{{ u.id }}/">{{ u.first_name }} {{ u.last_name }}</a></div>
 			{% endfor %}
 		{% else %}
 			<p>No users are available.</p>

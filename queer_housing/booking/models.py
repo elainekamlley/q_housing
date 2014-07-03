@@ -31,6 +31,9 @@ class Identities(models.Model):
 	sexual_orientation = models.CharField(max_length = 100)
 	user_id = models.ManyToManyField(User)
 
+	def __unicode__(self):
+		return self.user_id
+
 class Houses(models.Model):#best practice is to create singular name
 	description = models.CharField(max_length = 300)
 	user_id = models.ForeignKey(User)

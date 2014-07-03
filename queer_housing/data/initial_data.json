@@ -1,0 +1,282 @@
+[
+{
+  "pk": 1, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "Yernkas9", 
+    "first_name": "Elaine", 
+    "last_name": "Kamlley", 
+    "role": "houser", 
+    "email": "elaine@codeforprogress.org"
+  }
+},
+{
+  "pk": 2, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "milkandcookies", 
+    "first_name": "Jason", 
+    "last_name": "Towns", 
+    "role": "houser", 
+    "email": "jason@codeforprogress.org"
+  }
+},
+{
+  "pk": 3, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "MilkandCookies", 
+    "first_name": "Dago", 
+    "last_name": "Bailon", 
+    "role": "houser", 
+    "email": "dago@codeforprogress.org"
+  }
+},
+{
+  "pk": 4, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "MilkandCookies2", 
+    "first_name": "Bobby Joe", 
+    "last_name": "Smith III", 
+    "role": "housee", 
+    "email": "bobbyjoe@codeforprogress.org"
+  }
+},
+{
+  "pk": 5, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "MilkandCookies3", 
+    "first_name": "Aurea", 
+    "last_name": "Martinez", 
+    "role": "houser", 
+    "email": "aurea@codeforprogress.org"
+  }
+},
+{
+  "pk": 6, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "MilkandCookies4", 
+    "first_name": "Mariella", 
+    "last_name": "Paulino", 
+    "role": "housee", 
+    "email": "mariella@codeforprogress.org"
+  }
+},
+{
+  "pk": 7, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "MilkandCookies5", 
+    "first_name": "Kathy", 
+    "last_name": "Ortiz", 
+    "role": "houser", 
+    "email": "kathy@codeforprogress.org"
+  }
+},
+{
+  "pk": 8, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "MilkandCookies6", 
+    "first_name": "Selina", 
+    "last_name": "Musuta", 
+    "role": "housee", 
+    "email": "selina@codeforprogress.org"
+  }
+},
+{
+  "pk": 9, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "MilkandCookies7", 
+    "first_name": "Angie", 
+    "last_name": "Brilliance", 
+    "role": "houser", 
+    "email": "angie@codeforprogress.org"
+  }
+},
+{
+  "pk": 10, 
+  "model": "booking.user", 
+  "fields": {
+    "password": "MilkandCookies8", 
+    "first_name": "Pam", 
+    "last_name": "Davis", 
+    "role": "housee", 
+    "email": "pam@codeforprogress.org"
+  }
+},
+{
+  "pk": 6, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 1, 
+    "description": "ito ay ang iyong bahay", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "713 Hamlin St. NE", 
+    "booker_id": 1, 
+    "room_type": "single"
+  }
+},
+{
+  "pk": 7, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 2, 
+    "description": "Be comfortable here!", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "1744 Columbia Rd", 
+    "booker_id": 1, 
+    "room_type": "single"
+  }
+},
+{
+  "pk": 8, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 3, 
+    "description": "This is where you can rest", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "1744 Columbia Rd.", 
+    "booker_id": 1, 
+    "room_type": "single"
+  }
+},
+{
+  "pk": 9, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 4, 
+    "description": "Hello, World!", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "1744 Columbia Rd.", 
+    "booker_id": 1, 
+    "room_type": "single"
+  }
+},
+{
+  "pk": 10, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 5, 
+    "description": "This is the spot! Come on through", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "1744 Columbia Rd.", 
+    "booker_id": 1, 
+    "room_type": "single"
+  }
+},
+{
+  "pk": 11, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 6, 
+    "description": "Welcome!", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "1744 Columbia Rd.", 
+    "booker_id": 1, 
+    "room_type": "couch"
+  }
+},
+{
+  "pk": 12, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 7, 
+    "description": "Mi Casa, es su casa.", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "1744 Columbia Rd.", 
+    "booker_id": 1, 
+    "room_type": "couch"
+  }
+},
+{
+  "pk": 13, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 8, 
+    "description": "This can be home.", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "1744 Columbia Rd.", 
+    "booker_id": 1, 
+    "room_type": "couch"
+  }
+},
+{
+  "pk": 14, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 9, 
+    "description": "I believe no one should be cold and hungry. If you need to rest, you can stay here.", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "1744 Columbia Rd.", 
+    "booker_id": 1, 
+    "room_type": "couch"
+  }
+},
+{
+  "pk": 15, 
+  "model": "booking.houses", 
+  "fields": {
+    "status": "open", 
+    "city": "Washington DC", 
+    "user_id": 10, 
+    "description": "Radical and radiant.", 
+    "created_at": "2014-07-01T00:00:00Z", 
+    "min_stay": 2, 
+    "updated_at": "2014-07-01T00:00:00Z", 
+    "max_stay": 7, 
+    "address": "1744 Columbia Rd.", 
+    "booker_id": 1, 
+    "room_type": "couch"
+  }
+}
+]
